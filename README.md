@@ -3,6 +3,10 @@ The Word count allows the following operations
 1.	method that allows you to add one or more words
 2.	method that returns the count of how many times a given word was added to the word counter
 
+The app does not allow addition of words with non-alphabetic characters
+The app treats same words written in different languages as the same word, for example if adding "flower", "flor" (Spanish word for flower) and "blume" (German word for flower) the counting method should return 3. 
+
+
 # Getting Started
 ### For building and running the application you need:
 
